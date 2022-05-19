@@ -1,0 +1,13 @@
+{
+  "name": "netlify-func",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "netlify-lambda serve src/api",
+    "build": "netlify-lambda build src/api"
+  },
+  "dependencies": {
+    "netlify-lambda": "^2.0.15"
+  }
+}
